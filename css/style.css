@@ -58,6 +58,21 @@ body {
   list-style-position: inside;
   list-style-type: none;
 }
+.filter-button {
+  height: 38px;
+  width: 93px;
+  left: 639px;
+  top: 174px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.button-box {
+  height: 50px;
+  width: 200px;
+  left: 700px;
+  top: 430px;
+  border-radius: 4px;
+}
 .list {
   list-style-position: inside;
   list-style-type: none;
@@ -79,7 +94,8 @@ a:hover,
 }
 button:hover,
 :focus {
-  color: var(--secondary-color);
+  background-color: #2196f3;
+  color: #ffffff;
 }
 .paragraf {
   height: 75px;
@@ -170,4 +186,28 @@ button:hover,
   letter-spacing: 0.03em;
   text-align: left;
   color: var(--background-color);
+  list-style-position: inside;
+  list-style-type: none;
+  font-style: normal;
+}
+.team {
+  background-color: #f5f4fa;
+  list-style-position: inside;
+  list-style-type: none;
+}
+.item {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: var(--primary-color);
+}
+.item-caption {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #757575;
 }
