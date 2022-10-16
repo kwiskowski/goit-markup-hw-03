@@ -14,15 +14,15 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 100%;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
 
-.logo2 {
+.logo-header {
   color: #000000;
 }
-.logo3 {
+.logo-footer {
   color: #ffffff;
 }
 
@@ -65,6 +65,7 @@ body {
   top: 174px;
   border-radius: 4px;
   display: inline-block;
+  cursor: pointer;
 }
 .button-box {
   height: 50px;
@@ -105,7 +106,7 @@ button:hover,
   border-radius: nullpx;
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 146%;
   letter-spacing: 0.03em;
   text-align: left;
   color: #757575;
@@ -115,7 +116,7 @@ button:hover,
   font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 100%;
   letter-spacing: 0.02em;
   text-align: left;
 }
@@ -142,7 +143,7 @@ button:hover,
   border-radius: nullpx;
   font-size: 14px;
   font-weight: 700;
-  line-height: 16px;
+  line-height: 100%;
   letter-spacing: 0.03em;
   text-align: left;
   color: var(--primary-color);
@@ -155,15 +156,15 @@ button:hover,
   border-radius: nullpx;
   font-size: 36px;
   font-weight: 700;
-  line-height: 42px;
+  line-height: 100%;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--primary-color);
 }
-.descrition {
+.description {
   font-size: 16px;
   font-weight: 400;
-  line-height: 19px;
+  line-height: 100%;
   letter-spacing: 0.03em;
   text-align: center;
   color: #757575;
@@ -171,7 +172,7 @@ button:hover,
 .person {
   font-size: 16px;
   font-weight: 500;
-  line-height: 19px;
+  line-height: 100%;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--primary-color);
@@ -182,7 +183,7 @@ button:hover,
 .list-footer {
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 146%;
   letter-spacing: 0.03em;
   text-align: left;
   color: var(--background-color);
@@ -198,7 +199,7 @@ button:hover,
 .item {
   font-size: 18px;
   font-weight: 700;
-  line-height: 36px;
+  line-height: 171%;
   letter-spacing: 0.06em;
   text-align: left;
   color: var(--primary-color);
@@ -206,7 +207,7 @@ button:hover,
 .item-caption {
   font-size: 16px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 160%;
   letter-spacing: 0.03em;
   text-align: left;
   color: #757575;
