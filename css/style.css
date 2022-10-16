@@ -212,3 +212,7 @@ button:hover,
   text-align: left;
   color: #757575;
 }
+
+.container {
+  width: 1200px;
+}
