@@ -57,6 +57,7 @@ body {
   cursor: pointer;
   list-style-position: inside;
   list-style-type: none;
+  display: inline-flex;
 }
 .filter-button {
   height: 38px;
@@ -119,6 +120,10 @@ button:hover,
   line-height: 100%;
   letter-spacing: 0.02em;
   text-align: left;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 46px;
+  margin-right: 46px;
 }
 .order {
   height: 50px;
@@ -215,4 +220,5 @@ button:hover,
 
 .container {
   width: 1200px;
+  display: flex;
 }
