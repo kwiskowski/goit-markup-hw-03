@@ -18,14 +18,15 @@ ul h1 h2 h3 h4 h5 h6 p {
 
 .header {
   height: 80px;
-  left: 0px;
-  top: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
   border-bottom: #ececec;
+  border-bottom: 1px;
   border-top: 0px;
   border-left: 0px;
   border-right: 0px;
-  border-radius: 1px;
-  border-bottom-style: solid;
+  border-radius: 0px;
+  border-bottom-style: inset;
   display: flex;
   justify-items: center;
 }
@@ -54,6 +55,7 @@ ul h1 h2 h3 h4 h5 h6 p {
   top: 32px;
   border-radius: nullpx;
   margin-left: 371px;
+  margin-right: 50px;
 }
 
 .mail-footer {
@@ -68,7 +70,7 @@ ul h1 h2 h3 h4 h5 h6 p {
   left: 1263px;
   top: 32px;
   border-radius: nullpx;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 
 .phone-footer {
@@ -104,28 +106,36 @@ ul h1 h2 h3 h4 h5 h6 p {
 }
 .filter-button {
   height: 38px;
-  width: 93px;
-  left: 639px;
-  top: 174px;
+  background-color: #f5f4fa;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 4px;
+  border-style: none;
+  margin-right: 8px;
   display: inline-block;
   cursor: pointer;
 }
 
-.order {
-  height: 50px;
-  width: 200px;
-  left: 700px;
-  top: 430px;
-  border-radius: 4px;
-  background-color: var(--secondary-color);
-  color: var(--background-color);
+.filter-button:hover {
+  box-shadow: 0 2px 5px #6b6b6b;
+}
 
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 30px;
-  letter-spacing: 0.06em;
-  text-align: center;
+.order {
+  width: 200px;
+  height: 50px;
+  background-color: #2196f3;
+  border-radius: 4px;
+  border-style: none;
+  color: #ffffff;
   cursor: pointer;
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+.order:hover {
+  box-shadow: 0 2px 5px #000000;
 }
 
 .list {
@@ -169,6 +179,7 @@ ul h1 h2 h3 h4 h5 h6 p {
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   margin: 0px;
   padding: 0px;
   text-align: right;
@@ -182,14 +193,14 @@ ul h1 h2 h3 h4 h5 h6 p {
   list-style-type: none;
   display: inline-flex;
   color: var(--primary-color);
-  margin-left: 93px;
+  margin-left: 47px;
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 0px;
 }
 
 .main-list-item {
-  margin-right: 46px;
+  margin-left: 46px;
 }
 
 .paragraphs {
