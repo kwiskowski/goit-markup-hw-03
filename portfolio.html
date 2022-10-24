@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,22 +16,21 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
-    />
+    
     <header class="header">
-      <div class="container">
-  <a class="logo" href="index.html"
-    >Web<span class="logo-header">Studio</span></a
-  >
+            <div class="container">
+        <div class="header">
+          <a class="logo" href="index.html"
+          >Web<span class="logo-header">Studio</span></a
+        >
   <nav>
     <ul class="main-list">
-      <li><a class="link main-list-item" href="#">Agencja</a></li>
+                  <li><a class="link main-list-item" href="#">Agencja</a></li>
       <li><a class="link main-list-item" href="portfolio.html">Portfolio</a></li>
       <li><a class="link main-list-item" href="#">Kontakty</a></li>
     </ul>
   </nav>
+  
   <ul class="contact-list">
     <li class="contact-list-item">
       <a class="mail" href="mailto:info@devstudio.com"
@@ -39,9 +42,11 @@
     </li>
   </ul>
 </div>
+</div>
   </header>
     <main>
       <section class="section">
+        <div class="product-offer">
         <ul class="filter">
           <li>
             <button class="filter-button" type="button">Wszystkie</button>
@@ -55,10 +60,10 @@
             <button class="filter-button" type="button">Marketing</button>
           </li>
         </ul>
-        <div class="projects">
+        <div class="container">
           <ul class="list-products">
             <li class="product-items">
-              <div>
+              <div class="product-card">
                 <img
                   src="./images/portfolio/portfolio1.jpg"
                   alt="Technocrack, strona internetowa"
@@ -70,7 +75,7 @@
               </div>
             </li>
             <li class="product-items">
-              <div>
+              <div class="product-card">
                 <img
                   src="./images/portfolio/portfolio2.jpg"
                   alt="Grafika New Orlean vs Golden Star, Dizajn"
@@ -84,7 +89,7 @@
               </div>
             </li>
             <li class="product-items">
-              <div>
+              <div class="product-card">
                 <img
                   src="./images/portfolio/portfolio3.jpg"
                   alt="Restauracja Seafood, Aplikacja"
@@ -98,7 +103,7 @@
             </li>
 
             <li class="product-items">
-              <div>
+              <div class="product-card">
                 <img
                   src="./images/portfolio/portfolio4.jpg"
                   alt="Projekt Prime, Marketing"
@@ -111,7 +116,7 @@
               </div>
             </li>
             <li class="product-items">
-              <div>
+              <div class="product-card">
                 <img
                   src="./images/portfolio/portfolio5.jpg"
                   alt="Projekt Boxes, Aplikacja"
@@ -124,7 +129,7 @@
               </div>
             </li>
             <li class="product-items">
-              <div>
+              <div class="product-card">
                 <img
                   src="./images/portfolio/portfolio6.jpg"
                   alt="Inspiration has no Borders, Strona internetowa"
@@ -137,7 +142,7 @@
               </div>
             </li>
             <li class="product-items">
-              <div>
+              <div class="product-card">
                 <img
                   src="./images/portfolio/portfolio7.jpg"
                   alt="Magazyn Limited Editon, Dizajn"
@@ -150,7 +155,7 @@
               </div>
             </li>
             <li class="product-items">
-              <div>
+              <div class="product-card">
                 <img
                   src="./images/portfolio/portfolio8.jpg"
                   alt="Projekt LAB, Marketing"
@@ -163,7 +168,7 @@
               </div>
             </li>
             <li class="product-items">
-              <div>
+              <div class="product-card">
                 <img
                   src="./images/portfolio/portfolio9.jpg"
                   alt="Growing Buisness"
@@ -177,6 +182,7 @@
             </li>
           </ul>
         </div>
+      </div>
       </section>
     </main>
     <footer class="footer">

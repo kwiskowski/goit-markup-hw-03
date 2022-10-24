@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css"
+  />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,24 +16,23 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
-    />
+   
   </head>
   <body>
     <header class="header">
             <div class="container">
-        <a class="logo" href="index.html"
-          >Web<span class="logo-header">Studio</span></a
-        >
+              <div class="header">
+                <a class="logo" href="index.html"
+                >Web<span class="logo-header">Studio</span></a
+              >
         <nav>
           <ul class="main-list">
-            <li><a class="link main-list-item" href="#">Agencja</a></li>
+                        <li><a class="link main-list-item" href="#">Agencja</a></li>
             <li><a class="link main-list-item" href="portfolio.html">Portfolio</a></li>
             <li><a class="link main-list-item" href="#">Kontakty</a></li>
           </ul>
         </nav>
+        
         <ul class="contact-list">
           <li class="contact-list-item">
             <a class="mail" href="mailto:info@devstudio.com"
@@ -41,6 +44,7 @@
           </li>
         </ul>
       </div>
+    </div>
         </header>
     <main>
       <div class="box">
@@ -49,8 +53,8 @@
           <button class="order" type="button">Zamów usługe</button>
         </div>
       </div>
-      <section class="container section">
-        <div>
+      <section class="section">
+        <div class="container">
           <div class="paragraphs">
             <ul class="list-no-wrap">
               <li class="list-paragraph">
@@ -80,7 +84,7 @@
                   </p>
                 </div>
               </li>
-              <li class="list-paragraph">
+              <li class="list-paragraph-end">
                 <div>
                   <h4 class="title">LOREM IPSUM</h4>
                   <p class="paragraf">
@@ -91,10 +95,13 @@
               </li>
             </ul>
           </div>
-          <div class="destiny">
-            <div>
+        </div>
+      </section>
+        <section class="section">
+          <div class="container">
             <h2 class="section-title">Czym się zajmujemy</h2>
-            <ul class="list-no-wrap">
+            <div class="destiny">
+                        <ul class="objectives">
               <li class="list-paragraph">
                 <img
                   src="./images/home/box1.jpg"
@@ -112,7 +119,7 @@
                   width="370"
                 />
               </li>
-              <li class="list-paragraph">
+              <li class="list-paragraph-end">
                 <img
                   src="./images/home/box3.jpg"
                   alt="zdjęcie
@@ -125,10 +132,14 @@
           </div>
         </div>
       </section>
-      <section class="team section">
-        <h2 class="section-title">Nasz zespół</h2>
+      <section class="section" >
+        <div class="team">
+        <div class="container">
+          
+            <h2 class="section-two-title">Nasz zespół</h2>
         <ul class="list-no-wrap">
           <li>
+            <div class="members">
             <figure>
               <img
                 src="./images/home/portrait1.jpg"
@@ -141,8 +152,10 @@
                 <p class="description">Product Designer</p>
               </figcaption>
             </figure>
+          </div>
           </li>
           <li>
+            <div class="members">
             <figure>
               <img
                 src="./images/home/portrait2.jpg"
@@ -156,8 +169,10 @@
                 <p class="description">Product Designer</p>
               </figcaption>
             </figure>
+          </div>
           </li>
           <li>
+            <div class="members">
             <figure>
               <img
                 src="./images/home/portrait3.jpg"
@@ -170,8 +185,10 @@
                 <p class="description">Product Designer</p>
               </figcaption>
             </figure>
+          </div>
           </li>
           <li>
+            <div class="members">
             <figure>
               <img
                 src="./images/home/portrait4.jpg"
@@ -184,8 +201,11 @@
                 <p class="description">Product Designer</p>
               </figcaption>
             </figure>
+          </div>
           </li>
         </ul>
+      </div>
+    </div>
       </section>
     </main>
     <footer class="footer">
