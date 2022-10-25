@@ -254,10 +254,10 @@ h2 {
 a {
   text-decoration: none;
 }
-a:hover,
+/* a:hover,
 :focus {
   color: var(--secondary-color);
-}
+} */
 button:hover,
 :focus {
   background-color: #2196f3;
@@ -384,6 +384,9 @@ button:hover,
   letter-spacing: 0.06em;
   text-align: left;
   color: var(--primary-color);
+  margin: 0px;
+  padding-left: 24px;
+  padding-top: 20px;
 }
 .item-caption {
   font-size: 16px;
@@ -392,6 +395,10 @@ button:hover,
   letter-spacing: 0.03em;
   text-align: left;
   color: #757575;
+  margin: 0px;
+  padding-left: 24px;
+  padding-bottom: 20px;
+  padding-top: 4px;
 }
 
 .container {
