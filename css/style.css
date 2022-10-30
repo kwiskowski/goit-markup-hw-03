@@ -254,13 +254,17 @@ h2 {
 a {
   text-decoration: none;
 }
-/* a:hover,
-:focus {
+a:focus {
   color: var(--secondary-color);
-} */
-button:hover,
-:focus {
-  background-color: #2196f3;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+button:focus {
+  color: #ffffff;
+}
+button:hover {
   color: #ffffff;
 }
 .paragraf {
