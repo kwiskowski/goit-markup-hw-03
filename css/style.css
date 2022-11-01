@@ -126,6 +126,7 @@ figure {
 
 .filter-button:hover {
   box-shadow: 0 2px 5px #6b6b6b;
+  background-color: #2196f3;
 }
 
 .order {
